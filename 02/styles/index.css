@@ -50,6 +50,11 @@ section {
     align-items: center; 
 }
 
+form { 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
 
 /*radio*/
 /* Labels for checked inputs */
