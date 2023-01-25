@@ -53,6 +53,9 @@ const show = (n) => {
     }
     console.log(n);
 
+    //같은 곳을 여러번 눌렀을 때
+    if (selNum.indexOf(n) != -1) return ;
+
     cnt++ ; //누른횟수 
     selNum.push(n) ; //눌러진 정보 저장
     console.log(selNum);
