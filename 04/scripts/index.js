@@ -13,8 +13,8 @@ let shuffleFlag = false;
 
 
 //보드 숫자 누른 후 보여주기 함수
-const show = () => {
-
+const show = (n) => {
+    console.log(n);
 }
 
 //폭탄섞기 함수
